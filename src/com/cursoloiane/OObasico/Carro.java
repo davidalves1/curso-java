@@ -68,11 +68,11 @@ public class Carro {
     }
     
     double obterAutonomia() {
-    	return capacidadeCombustivel * consumoCombustivel; 
+    	return this.capacidadeCombustivel * this.consumoCombustivel; 
     }
     
     double calcularCombustivel(double km) {
-    	return km / consumoCombustivel;
+    	return km / this.consumoCombustivel;
     }
 }
 
