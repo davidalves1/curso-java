@@ -39,6 +39,10 @@ public class Lista1 {
 		conta.realizarSaque(400);
 		
 		conta.exibirExtrato();
+		
+		int calcular = Fatorial.calcular(6);
+		
+		System.out.println("Fatorial = " + calcular);
 	}
 
 }
