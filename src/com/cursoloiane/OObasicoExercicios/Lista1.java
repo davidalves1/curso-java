@@ -40,9 +40,9 @@ public class Lista1 {
 		
 		conta.exibirExtrato();
 		
-		int calcular = Fatorial.calcular(6);
+		System.out.println("Fatorial = " + Fatorial.calcular(6));
 		
-		System.out.println("Fatorial = " + calcular);
+		System.out.println("Fibonacci = " + Fibonacci.calcular(6));
 	}
 
 }

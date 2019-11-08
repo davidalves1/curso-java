@@ -1,11 +1,11 @@
 package com.cursoloiane.OObasicoExercicios;
 
-public class Fatorial {
+public class Fibonacci {
 	public static int calcular(int num) {
-		if (num == 0) {
+		if (num < 2 ) {
 			return 1;
 		}
 		
-		return num * calcular(num - 1);
+		 return calcular(num - 1) + calcular(num - 2);
 	}
 }
